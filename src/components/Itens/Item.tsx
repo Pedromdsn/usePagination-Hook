@@ -1,14 +1,5 @@
 interface ItemProps {
-	element: elementProps
-}
-
-export interface elementProps {
-	uid: string
-	username: string
-	first_name: string
-	last_name: string
-	employment: any
-	subscription: any
+	element: User
 }
 
 const Item = ({ element }: ItemProps) => {

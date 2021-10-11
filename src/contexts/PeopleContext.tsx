@@ -1,14 +1,19 @@
 import axios from "axios"
 import { createContext, useEffect, useState } from "react"
 
+interface PeopleProviderProps {
+	children: JSX.Element
+}
+
 interface PeopleContextReturn {
-	people: any[]
+	people: User[]
 	loading: boolean
 	error: boolean
 }
+
 export const PeopleContext = createContext({} as PeopleContextReturn)
 
-export const PeopleProvider = ({ children }: any) => {
+export const PeopleProvider = ({ children }: PeopleProviderProps) => {
 	const [people, setPeople] = useState([])
 	const [loading, setLoading] = useState(true)
 	const [error, setError] = useState(false)
