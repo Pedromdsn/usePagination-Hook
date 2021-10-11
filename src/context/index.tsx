@@ -1,7 +1,7 @@
-import { PaginationProvider } from "./contexts/PaginationContext"
-import { PeopleProvider } from "./contexts/PeopleContext"
+import { PaginationProvider } from "./PaginationContext"
+import { PeopleProvider } from "./PeopleContext"
 
-export const Contexts = ({ children }: any) => {
+export const GlobalContexts = ({ children }: any) => {
 	return (
 		<PeopleProvider>
 			<PaginationProvider>{children}</PaginationProvider>

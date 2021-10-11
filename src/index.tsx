@@ -2,15 +2,15 @@ import React from "react"
 import ReactDOM from "react-dom"
 import App from "./pages"
 
-import { Contexts } from "./context"
+import { GlobalContexts } from "./context"
 
 import "./style/index.css"
 
 ReactDOM.render(
 	<React.StrictMode>
-		<Contexts>
+		<GlobalContexts>
 			<App />
-		</Contexts>
+		</GlobalContexts>
 	</React.StrictMode>,
 	document.getElementById("root")
 )
