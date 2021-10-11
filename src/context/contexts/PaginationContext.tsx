@@ -1,4 +1,4 @@
-import usePagination, { UsePaginationReturn } from "../hooks/usePagination"
+import usePagination, { UsePaginationReturn } from "../../hooks/usePagination"
 
 import { createContext, useContext } from "react"
 import { PeopleContext } from "./PeopleContext"

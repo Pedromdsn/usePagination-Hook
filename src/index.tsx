@@ -2,18 +2,14 @@ import React from "react"
 import ReactDOM from "react-dom"
 import App from "./pages"
 
-import { PaginationProvider } from "./context/PaginationContext"
-import {PeopleProvider } from "./context/PeopleContext"
-
 import "./style/index.css"
+import { Contexts } from "./context"
 
 ReactDOM.render(
 	<React.StrictMode>
-		<PeopleProvider>
-			<PaginationProvider>
-				<App />
-			</PaginationProvider>
-		</PeopleProvider>
+		<Contexts>
+			<App />
+		</Contexts>
 	</React.StrictMode>,
 	document.getElementById("root")
 )

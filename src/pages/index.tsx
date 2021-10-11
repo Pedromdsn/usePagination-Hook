@@ -2,7 +2,7 @@ import logo from "../assets/logo.svg"
 import Itens from "../components/Itens"
 import Pagination from "../components/Pagination"
 
-import { PeopleContext } from "../context/PeopleContext"
+import { PeopleContext } from "../context/contexts/PeopleContext"
 import { useContext } from "react"
 
 function App() {
