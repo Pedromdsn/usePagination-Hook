@@ -1,8 +1,8 @@
 import Item from "./Item"
 
-import { PeopleContext } from "../../context/PeopleContext"
+import { PeopleContext } from "../../contexts/PeopleContext"
 import { useContext } from "react"
-import { PaginationContext } from "../../context/PaginationContext"
+import { PaginationContext } from "../../contexts/PaginationContext"
 
 const Itens = () => {
 	const { firstContentIndex, lastContentIndex } = useContext(PaginationContext)

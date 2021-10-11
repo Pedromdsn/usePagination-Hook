@@ -2,7 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import App from "./pages"
 
-import { GlobalContexts } from "./context"
+import { GlobalContexts } from "./contexts"
 
 import "./style/index.css"
 
