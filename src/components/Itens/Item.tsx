@@ -4,7 +4,7 @@ interface ItemProps {
 
 const Item = ({ element }: ItemProps) => {
 	return (
-		<div className="item" key={element.uid}>
+		<div className="item">
 			<img
 				src={`https://avatars.dicebear.com/api/big-smile/${element.first_name}.svg`}
 				alt={`${element.username} profile`}

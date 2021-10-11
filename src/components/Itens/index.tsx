@@ -10,7 +10,7 @@ const Itens = () => {
 	return (
 		<div className="items">
 			{people.slice(firstContentIndex, lastContentIndex).map((e) => (
-				<Item element={e}/>
+				<Item element={e} key={e.uid}/>
 			))}
 		</div>
 	)
