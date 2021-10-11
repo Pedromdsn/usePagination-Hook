@@ -1,6 +1,8 @@
 # Hook usePagination()
 
-<img src="https://i.imgur.com/baAREkg.png">
+<div align="center">
+	<img src="https://i.imgur.com/baAREkg.png" >
+</div>
 
 To start working on this project simply run the following commands
 
@@ -21,4 +23,3 @@ or with npm
 ```
 npm install
 ```
-
